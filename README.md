@@ -25,9 +25,6 @@ names(iucn_palettes)
 #> [1] "CO"  "CR"  "EN"  "VU"  "NT"  "LC"  "DD"  "NE"  "All"
 ```
 
-Palettes
---------
-
 ### All
 
 ``` r
@@ -52,7 +49,7 @@ iucn_palette(category="EN")
 
 ![](figure/single-category-1.png)
 
-![](IUCN_RGB.png)
+![](IUCN_RGB.PNG)
 
 -   Bland, L.M., Keith, D.A., Miller, R.M., Murray, N.J. and Rodríguez,
     J.P. (eds.) (2016). Guidelines for the application of IUCN Red List

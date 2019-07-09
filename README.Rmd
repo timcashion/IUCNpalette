@@ -37,7 +37,6 @@ library("IUCNpalette")
 names(iucn_palettes)
 ```
 
-## Palettes
 
 ### All
 
@@ -58,7 +57,9 @@ iucn_palette(category="EN")
 ```
 
 
-![](IUCN_RGB.png)
+
+
+![](IUCN_RGB.PNG)
 
 
 - Bland, L.M., Keith, D.A., Miller, R.M., Murray, N.J. and Rodríguez, J.P. (eds.) (2016).
