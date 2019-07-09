@@ -49,7 +49,10 @@ iucn_palette(category="EN")
 
 ![](figure/single-category-1.png)
 
-![](IUCN_RGB.PNG)
+![](IUCN_RGB.PNG) \> (Source: Bland et al., 2016).
+
+References
+----------
 
 -   Bland, L.M., Keith, D.A., Miller, R.M., Murray, N.J. and Rodríguez,
     J.P. (eds.) (2016). Guidelines for the application of IUCN Red List
