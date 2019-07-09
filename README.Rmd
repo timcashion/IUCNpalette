@@ -16,14 +16,11 @@ knitr::opts_chunk$set(
 ```
 
 # IUCN Official Palette
-
-<!-- [![Build Status](https://travis-ci.org/karthik/wesanderson.png)](https://travis-ci.org/karthik/wesanderson)   -->
-<!-- ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/wesanderson) -->
+<!-- ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/) -->
 
 
-![](IUCN_RGB.png)
 
-> Make your plots with the official colours used by the IUCN according to their style guide. 
+Make your plots with the official colours used by the IUCN according to their style guide. 
 
 ## Installation
 
@@ -37,7 +34,7 @@ devtools::install_github("timcashion/IUCNpalette")
 ```{r, palettes_dummy}
 library("IUCNpalette")
 # See all palettes
-names(iucn_palette)
+names(iucn_palettes)
 ```
 
 ## Palettes
@@ -47,6 +44,21 @@ names(iucn_palette)
 ```{r, full-categories}
 iucn_palette(category="All")
 ```
+
+### Remove some categories
+
+```{r, some-categories}
+iucn_palette(category="All", exclude=c("DD", "NE", "CO"))
+```
+
+
+### Single category
+```{r, single-category}
+iucn_palette(category="EN")
+```
+
+
+![](IUCN_RGB.png)
 
 
 - Bland, L.M., Keith, D.A., Miller, R.M., Murray, N.J. and Rodríguez, J.P. (eds.) (2016).
