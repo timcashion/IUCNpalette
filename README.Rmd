@@ -1,0 +1,56 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "figure/",
+  fig.height = 1
+)
+```
+
+# IUCN Official Palette
+
+<!-- [![Build Status](https://travis-ci.org/karthik/wesanderson.png)](https://travis-ci.org/karthik/wesanderson)   -->
+<!-- ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/wesanderson) -->
+
+
+![](IUCN_RGB.png)
+
+> Make your plots with the official colours used by the IUCN according to their style guide. 
+
+## Installation
+
+
+```r
+devtools::install_github("timcashion/IUCNpalette")
+```
+
+## Usage
+
+```{r, palettes_dummy}
+library("IUCNpalette")
+# See all palettes
+names(iucn_palette)
+```
+
+## Palettes
+
+### All
+
+```{r, full-categories}
+iucn_palette(category="All")
+```
+
+
+- Bland, L.M., Keith, D.A., Miller, R.M., Murray, N.J. and Rodríguez, J.P. (eds.) (2016).
+Guidelines for the application of IUCN Red List of Ecosystems Categories and
+Criteria, Version 1.0. Gland, Switzerland: IUCN. ix + 94pp. https://portals.iucn.org/library/sites/library/files/documents/2016-010.pdf
+
+
