@@ -7,6 +7,7 @@ IUCN Official Palette
 
 Make your plots with the official colours used by the IUCN according to
 their style guide.
+NOTE: This package is made for aligning graphics with the IUCN official category colours, but is not endorsed in any way by the IUCN. 
 
 Installation
 ------------
@@ -49,7 +50,8 @@ iucn_palette(category="EN")
 
 ![](figure/single-category-1.png)
 
-![](IUCN_RGB.PNG) \> (Source: Bland et al., 2016).
+![](IUCN_RGB.PNG)
+Source: Bland et al., 2016.
 
 References
 ----------
