@@ -1,13 +1,12 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-IUCN Official Palette
-=====================
-
-<!-- ![CRAN Downloads](http://cranlogs.r-pkg.org/badges/) -->
+IUCN Palette
+============
 
 Make your plots with the official colours used by the IUCN according to
-their style guide.
-NOTE: This package is made for aligning graphics with the IUCN official category colours, but is not endorsed in any way by the IUCN. 
+their style guide.  
+NOTE: This package is made for aligning graphics with the IUCN official
+category colours, but is not endorsed in any way by the IUCN.
 
 Installation
 ------------
